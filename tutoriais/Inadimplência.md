@@ -2,10 +2,13 @@
 
 Assumindo O.S de Inadimplência.
 IXC ->
-1. No painel lateral, selecione a opção "Suporte" -> "Ordem de Serviço"
-2. Ao abrir a lista de ordens de serviço, nas opções de filtro por SETOR, pesquise por INTERNO.
+1. No painel lateral, selecione a opção "Suporte" -> "Ordem de Serviço" <br>
+<img width="300" src="./media/inadimplencia-1.png">
+2. Ao abrir a lista de ordens de serviço, nas opções de filtro por SETOR, pesquise por **INTERNO**. <br>
+<img width="300" src="./media/inadimplencia-2.png">
 3. Ao pegar o equipamento de Inadimplência, terá uma etiqueta identificando de que cliente era esse equipamento. Você irá assumir a O.S com o mesmo nome que estiver na etiqueta do equipamento.
 4. Para assumir, selecione a O.S clicando uma vez com o botão esquerdo, então, no menu de ações, clique na opção: Assumir
+<img width="300" src="./media/inadimplencia-3.png">
 
 Roteador/Modem ->
 1. Com o equipamento em mãos, restaure as configurações de fábrica.
@@ -19,15 +22,24 @@ Liberando o equipamento no IXC ->
 2. Caixa FTTH: sempre será: 1249 - CTO_BASE_TESTE
 3. Porta FTTH: Selecione uma das 8 portas que esteja disponível
 4. Login: Será um dos 3 logins "testeequipamento" disponíveis.
-5. Perfil: Dependende do equipamento que será autorizado: Integrado: Perfil 18. Em Bridge: Perfil 1.
+5. Perfil: Dependende do equipamento que será autorizado: Integrado: Perfil 18. Em Bridge: Perfil 1 <br>
+<img width="500" src="./media/inadimplencia-4.png">
 6. Após preencher todos os campos, clique em Salvar, depois em Integração OLT -> Gravar no dispositivo.
+<img width="500" src="./media/inadimplencia-5.png">
 
 Com o equipamento online, iremos efetuar os testes de velocidade na rede 2.4G, 5G e através de um cabo de rede, sempre registrando o resultado no teste no Router Vault.
 
 1. Com os testes feitos, selecione a O.S que assumimos anteriormente e no menu de Ações -> Finalizar.
-2. No campo de mensagem, iremos preencher com o seguinte modelo:
+2. No campo de mensagem, iremos preencher com o seguinte modelo: <br><br>
+***A mensagem irá dependender de como voltou o equipamento, caso volte algum que não esteja funcionando, especifique na O.S e coloque um adesivo vermelho nesse mesmo equipamento.***
 
+```md
 Equipamento testado e apto para uso.
 MAC: *mac do equipamento*
 Ambos os cordões ópticos que voltaram estão ok
 Fonte não devolvida pelo cliente.
+```
+
+3. Depois, clique em salvar
+
+<img width="500" src="./media/inadimplencia-6.png">
