@@ -29,6 +29,6 @@ Equipamento = Modem/roteador
     <td>18</td>
     <td>Usado quando o equipamento é integrado, ou seja, faz a função tanto do modem, quanto do roteador.</td>
   </tr>
-</table><br>
-8. Após preencher todos os campos necessários, clicamos em salvar, e depois Integração OLT -> Gravar no dispositivo. <br>
+</table>
+1. Após preencher todos os campos necessários, clicamos em salvar, e depois Integração OLT -> Gravar no dispositivo. <br><br>
 <img width="800" src="./media/subit-equipamento-2.png">
