@@ -8,7 +8,7 @@ Equipamento = Modem/roteador
 5. Ao clicar, irá aparecer uma lista com as ONUs disponiveis para autorizar. <br>
 <img width="800" src="./media/subit-equipamento-1.png">
 
-**Caso não esteja aparecendo para liberar, verifique se o equipamento já não está autorizado pesquisando pelo seu endereço MAC no UNM2000.**
+**Caso não esteja aparecendo para liberar, verifique se o equipamento já não está autorizado pesquisando pelo final (últimos 4 digitos) do seu endereço MAC no UNM2000.**
 
 6. Após selecionar o equipamento correto na lista, clique em Autorizar ONU.
 7. Precisamos preencher os seguintes campos: <br>
